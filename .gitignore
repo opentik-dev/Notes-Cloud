@@ -1,0 +1,21 @@
+node_modules/
+.wrangler/
+.env
+.env.*
+!.env.example
+dist/
+coverage/
+backup-output/
+*.log
+.DS_Store
+Thumbs.db
+*.sqlite
+*.sqlite3
+*.db
+
+# Local editor and OS files
+.vscode/
+.idea/
+
+# Legacy/local repository metadata kept outside the public repository
+.git-local/

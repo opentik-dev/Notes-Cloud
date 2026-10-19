@@ -1,0 +1,19 @@
+name = "d1-notes-app"
+main = "src/index.js"
+compatibility_date = "2026-10-14"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "notes-db"
+# Set this locally or in the deployment environment after running:
+# npx wrangler d1 create notes-db
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+
+[vars]
+# The first account is not automatically an administrator. Set this value in
+# your private deployment config or replace it before deploying.
+ADMIN_EMAIL = "admin@example.com"
+USER_STORAGE_QUOTA_BYTES = "104857600"
+
+[observability]
+enabled = true
