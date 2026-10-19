@@ -1,5 +1,7 @@
 # دفتر سحابي | NotesCloud
 
+لإعداد جهاز جديد واستئناف العمل، راجع [HANDOFF.md](HANDOFF.md) أولًا.
+
 منصة ملاحظات سحابية متعددة المستخدمين، عربية أولًا، تعمل داخل Cloudflare Workers وتستخدم D1 (SQLite) لحفظ البيانات بأمان. صُممت NotesCloud لتكون مساحة هادئة وسريعة للكتابة والتنظيم، مع دعم النصوص والصور والرسومات المتجهة.
 
 English summary: NotesCloud is a multi-user, Arabic-first cloud notes platform built on Cloudflare Workers and D1. It provides private notes, Markdown editing, notebooks, tags, media assets, import tools, and responsive light/dark/system themes.
